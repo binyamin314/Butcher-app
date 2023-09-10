@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homePage">
+
+    <fragment
+        android:id="@+id/homePage"
+        android:name="com.example.etlizmordechai.fragments.HomePage"
+        android:label="fragment_home_page"
+        tools:layout="@layout/fragment_home_page" >
+        <action
+            android:id="@+id/action_homePage_to_loginPage"
+            app:destination="@id/loginPage" />
+        <action
+            android:id="@+id/action_homePage_to_registerPage"
+            app:destination="@id/registerPage" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginPage"
+        android:name="com.example.etlizmordechai.fragments.LoginPage"
+        android:label="fragment_login_page"
+        tools:layout="@layout/fragment_login_page" >
+        <action
+            android:id="@+id/action_loginPage_to_registerPage"
+            app:destination="@id/registerPage" />
+        <action
+            android:id="@+id/action_loginPage_to_products"
+            app:destination="@id/products" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerPage"
+        android:name="com.example.etlizmordechai.fragments.RegisterPage"
+        android:label="fragment_register_page"
+        tools:layout="@layout/fragment_register_page" >
+        <action
+            android:id="@+id/action_registerPage_to_loginPage"
+            app:destination="@id/loginPage" />
+    </fragment>
+    <fragment
+        android:id="@+id/products"
+        android:name="com.example.etlizmordechai.fragments.Products"
+        android:label="fragment_products"
+        tools:layout="@layout/fragment_products" />
+</navigation>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "317038245859",
+    "project_id": "etlizmordechai",
+    "storage_bucket": "etlizmordechai.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:317038245859:android:3994fc9aabada60b60d2d6",
+        "android_client_info": {
+          "package_name": "com.example.etlizmordechai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "317038245859-fpt73tjpjq17bgb1rsukbucc1iivr1kk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrex4k2TTQI6yeglIt-ySDHQKYD8Yi7aw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "317038245859-fpt73tjpjq17bgb1rsukbucc1iivr1kk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
